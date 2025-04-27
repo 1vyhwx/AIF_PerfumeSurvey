@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume Customization Survey</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ffe4e1, #e0ffff);
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #ff69b4;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #ff69b4;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #ff85c1;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+<h1>✨ Perfume Customization Survey ✨</h1>
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="pronouns">Pronouns:</label>
+  <input type="text" id="pronouns" name="pronouns" placeholder="e.g., she/her, he/him, they/them">
+
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender" required>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Non-binary">Non-binary</option>
+    <option value="Prefer not to say">Prefer not to say</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <label for="age">Age Group:</label>
+  <select id="age" name="age" required>
+    <option value="Under 18">Under 18</option>
+    <option value="18-25">18-25</option>
+    <option value="26-40">26-40</option>
+    <option value="41-60">41-60</option>
+    <option value="Over 60">Over 60</option>
+  </select>
+
+  <label for="occupation">Occupation:</label>
+  <select id="occupation" name="occupation" required>
+    <option value="Student">Student</option>
+    <option value="Working Professional">Working Professional</option>
+    <option value="Outdoor Worker">Outdoor Worker</option>
+    <option value="Artist">Artist</option>
+    <option value="Retired">Retired</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <label for="scenario">When will you wear this perfume?</label>
+  <select id="scenario" name="scenario" required>
+    <option value="Daily">Daily Use</option>
+    <option value="Special Events">Special Events</option>
+    <option value="Romantic Moments">Romantic Moments</option>
+    <option value="Relaxation">Relaxation</option>
+    <option value="Adventure">Adventure</option>
+  </select>
+
+  <label for="vibe">Desired Vibe:</label>
+  <select id="vibe" name="vibe" required>
+    <option value="Fresh & Clean">Fresh & Clean</option>
+    <option value="Subtle & Elegant">Subtle & Elegant</option>
+    <option value="Energetic & Bright">Energetic & Bright</option>
+    <option value="Bold & Glamorous">Bold & Glamorous</option>
+    <option value="Soft & Sweet">Soft & Sweet</option>
+    <option value="Light & Airy">Light & Airy</option>
+    <option value="Cozy & Comforting">Cozy & Comforting</option>
+    <option value="Dreamy & Romantic">Dreamy & Romantic</option>
+    <option value="Earthy & Natural">Earthy & Natural</option>
+    <option value="Free-Spirited & Bright">Free-Spirited & Bright</option>
+  </select>
+
+  <label for="scent_family">Preferred Scent Family:</label>
+  <select id="scent_family" name="scent_family" required>
+    <option value="Citrus">Citrus</option>
+    <option value="Floral">Floral</option>
+    <option value="Woody">Woody</option>
+    <option value="Fruity">Fruity</option>
+    <option value="Sweet">Sweet</option>
+    <option value="Aquatic">Aquatic</option>
+    <option value="Spicy">Spicy</option>
+    <option value="Amber">Amber</option>
+  </select>
+
+  <label for="longevity">Desired Longevity:</label>
+  <select id="longevity" name="longevity" required>
+    <option value="Light">Light (2-4 hours)</option>
+    <option value="Medium">Medium (6-8 hours)</option>
+    <option value="Strong">Strong (10+ hours)</option>
+  </select>
+
+  <button type="submit">Submit Survey</button>
+</form>
+
+<div class="footer">
+  ✨ Data collected by Ivy.H ✨
+</div>
+
+</body>
+</html>
